@@ -1,0 +1,229 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#dddddd"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    tools:context="com.example.win.bmi.MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#bbbbbb"
+        android:orientation="vertical"
+        android:padding="@dimen/linear_layout_padding">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_vertical">
+
+            <ImageView
+                android:id="@+id/img_height"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:contentDescription="@string/pic_desc"
+                android:src="@drawable/icon_height" />
+
+            <TextView
+                android:id="@+id/txt_height"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginHorizontal="@dimen/txt_view_margin_start"
+                android:layout_weight="3"
+                android:text="@string/height"
+                android:textSize="@dimen/font_small_size" />
+
+            <EditText
+                android:id="@+id/edt_height"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="2"
+                android:hint=""
+                android:gravity="center"
+                android:inputType="number" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_vertical">
+
+            <ImageView
+                android:id="@+id/img_weight"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:contentDescription="@string/pic_desc"
+                android:src="@drawable/icon_weight" />
+
+            <TextView
+                android:id="@+id/txt_weight"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:layout_marginHorizontal="3dp"
+                android:layout_weight="3"
+                android:text="@string/weight"
+                android:textSize="@dimen/font_small_size" />
+
+            <EditText
+                android:id="@+id/edt_weight"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="2"
+                android:hint=""
+                android:gravity="center"
+                android:inputType="number" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_vertical">
+
+            <ImageView
+                android:id="@+id/img_sex"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+
+                android:contentDescription="@string/pic_desc"
+                android:src="@drawable/icon_sex" />
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginHorizontal="@dimen/txt_view_margin_start"
+
+                android:layout_weight="1"
+                android:text="@string/sex"
+                android:textSize="@dimen/font_small_size" />
+
+            <ImageView
+                android:id="@+id/img_des"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:contentDescription="@string/pic_desc"
+                android:src="@drawable/sex_equal" />
+
+            <Button
+                android:id="@+id/btn_ok"
+                android:layout_width="60dp"
+                android:layout_height="wrap_content"
+                android:text="@string/doubt" />
+
+
+        </LinearLayout>
+
+        <Button
+            android:id="@+id/btn_calculate"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="end"
+            android:text="@string/calculate" />
+
+        <TextView
+            android:id="@+id/txt_bmi"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:background="@color/color_button_back"
+            android:gravity="center"
+            android:text="@string/bmi_value"
+            android:textColor="@android:color/white"
+            android:textSize="@dimen/font_big_size" />
+
+        <TextView
+            android:id="@+id/txt_advice"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_marginTop="5dp"
+            android:background="@color/color_button_back"
+            android:gravity="center"
+            android:text="@string/advice"
+            android:textColor="@android:color/white"
+            android:textSize="@dimen/font_big_size" />
+
+        <TableLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:id="@+id/txt_table"
+                style="@style/MyTable.Title"
+                android:layout_marginTop="7dp"
+                android:text="@string/bmi_table" />
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:id="@+id/txt_range"
+                    style="@style/MyTable.Title"
+                    android:layout_marginTop="7dp"
+                    android:text="@string/range" />
+
+                <TextView
+                    android:id="@+id/txt_category"
+                    style="@style/MyTable.Title"
+                    android:layout_marginHorizontal="5dp"
+                    android:layout_marginTop="7dp"
+                    android:text="@string/bmi_category" />
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="7dp">
+
+                <TextView
+                    android:id="@+id/advise1_1"
+                    style="@style/MyTable"
+                    android:text="@string/less20" />
+
+                <TextView
+                    android:id="@+id/advise1_2"
+                    style="@style/MyTable"
+                    android:layout_marginHorizontal="5dp"
+                    android:text="@string/category_less" />
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="7dp">
+
+                <TextView
+                    android:id="@+id/advise2_1"
+                    style="@style/MyTable"
+                    android:text="@string/normal" />
+
+                <TextView
+                    android:id="@+id/advise2_2"
+                    style="@style/MyTable"
+                    android:layout_marginHorizontal="5dp"
+                    android:text="@string/category_normal" />
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="7dp">
+
+                <TextView
+                    android:id="@+id/advise3_1"
+                    style="@style/MyTable"
+                    android:text="@string/over25" />
+
+                <TextView
+                    android:id="@+id/advise3_2"
+                    style="@style/MyTable"
+                    android:layout_marginHorizontal="5dp"
+                    android:text="@string/category_over" />
+            </TableRow>
+        </TableLayout>
+    </LinearLayout>
+
+</ScrollView>

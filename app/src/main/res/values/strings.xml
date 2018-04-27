@@ -1,0 +1,51 @@
+<resources>
+    <string name="app_name">BMI</string>
+    <string name="bmi">BMI</string>
+    <string name="pic_desc">图片</string>
+    <string name="weight">体重（公斤）</string>
+    <string name="height">身高（厘米）</string>
+    <string name="waist">腰围（厘米）</string>
+    <string name="waist_fin">腰围（英寸）</string>
+    <string name="weigh_flb">体重（磅）</string>
+    <string name="height_fin">身高（英寸）</string>
+    <string name="sex">性别:</string>
+    <string name="doubt">  ？ </string>
+    <string name="calculate">计算</string>
+    <string name="bmi_value">BMI值：%1$s</string>
+    <string name="whr_value">WHR值：</string>
+    <string name="advice">建议：%1$s</string>
+    <string name="bmi_table">BMI参考表格</string>
+    <string name="range">范围</string>
+    <string name="bmi_category">类型</string>
+    <string name="less20">少于20</string>
+    <string name="normal">20到25</string>
+    <string name="over25">大于25</string>
+    <string name="category_less">太轻了</string>
+    <string name="category_normal">正常</string>
+    <string name="category_over">太重了</string>
+    <string name="title_about">关于</string>
+    <string name="alert_dialog_ok">确定</string>
+    <string name="alert_dialog_cancel">取消</string>
+    <string name="to_imperial">改为英制单位</string>
+    <string name="to_metric">改为公制单位</string>
+    <string name="imperial_system">英制单位</string>
+    <string name="metric_system">公制单位</string>
+    <string name="select_unit">计量单位选择</string>
+    <string name="about">关于</string>
+    <string name="confirm_exit">确认退出吗？</string>
+    <string name="prompt">提示</string>
+    <string name="alert_dialog__msg">        加拿大智能手机供应商黑莓正式宣布与印度公司
+        签署智能手机许可协议，Opt公司将在印度为15亿潜在智能手机
+        用户生产和销售黑莓智能手机。去年11月，黑莓与Opt公司合作，
+        该公司于1995年在印度出售了第一部手机。 </string>
+
+    <string-array name="advice">
+        <item>你体型很棒哦</item>
+        <item>你该少吃点</item>
+        <item>你该多吃点</item>
+    </string-array>
+
+    <string name="please_input_message">请输入信息</string>
+    <string name="action_settings">设定</string>
+    <string name="unit_measure">计量单位</string>
+</resources>

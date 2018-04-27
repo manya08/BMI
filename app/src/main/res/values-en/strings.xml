@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">BMI</string>
+    <string name="action_settings">Settings</string>
+    <string name="bmi">BMI</string>
+    <string name="pic_desc">Picture</string>
+    <string name="weight">Weight（kg）</string>
+    <string name="height">Height（cm）</string>
+    <string name="waist">Waist（cm）</string>
+    <string name="waist_fin">Waist（in）</string>
+    <string name="weigh_flb">Weight（lb）</string>
+    <string name="height_fin">Height（in）</string>
+    <string name="sex">Sex:</string>
+    <string name="doubt"> ？ </string>
+    <string name="calculate">calculate</string>
+    <string name="bmi_value">BMI is：%1$s</string>
+    <string name="whr_value">WHR：</string>
+    <string name="advice">Advice：%1$s</string>
+    <string name="bmi_table">BMI Table</string>
+    <string name="range">Range</string>
+    <string name="bmi_category">Category</string>
+    <string name="less20">less than 20</string>
+    <string name="normal">from 20 to 25</string>
+    <string name="over25">over 25</string>
+    <string name="category_less">Under Weight</string>
+    <string name="category_normal">Normal</string>
+    <string name="category_over">OverWeight</string>
+    <string name="title_about">about</string>
+    <string name="alert_dialog_ok">OK</string>
+    <string name="alert_dialog_cancel">Cancel</string>
+    <string name="unit_measure">unit of measure</string>
+    <string name="to_imperial">To Imperial SYS</string>
+    <string name="to_metric">To Metric SYS</string>
+    <string name="imperial_system">Imperial System</string>
+    <string name="metric_system">Metric System</string>
+    <string name="select_unit">Selection Unit of Measure</string>
+    <string name="about">About</string>
+    <string name="confirm_exit">Confirm Exit？</string>
+    <string name="prompt">Prompt</string>
+    <string name="alert_dialog__msg">     Canadian phone supplier BlackBerry officially
+        announced a licensing agreement with Indian company
+        Opt, which will produce and sell BlackBerry phones
+        in India for 1.5 billion potential phone users.
+        Last year in November,Blackberry and Opt company,
+        the company in 1995 in India sold its first mobile phone.
+    </string>
+
+
+    <string-array name="advice">
+        <item>your bmi is normal</item>
+        <item>you should eat less</item>
+        <item>you should eat more</item>
+
+
+    </string-array>
+    <string name="please_input_message">Please Enter Number</string>
+
+</resources>
